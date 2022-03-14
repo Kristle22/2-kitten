@@ -6,13 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2-kitten</title>
     <style>
+        body {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        nav, main {
+            width: 100%;
+            display: inline-block;
+        }
+        .top-link {
+            margin: 3% 8%;
+            font-size: 28px;
+            width: 35%;
+            float: left;
+        }
         ul {
+            margin-top: 3%;
+            padding: 0;
             list-style-type: none;
+            width: 45%;
+            display: inline-block;
+            overflow: hidden;
         }
         ul li {
-            float: right;
-            padding: 20px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif ;
+            float: left;
+            padding: 0 20px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
         }
         .btn {
             text-decoration: none;
@@ -27,26 +49,28 @@
         .line {
             border-top: 4px solid #9cd5f0;
             width: 150px;
-            margin-bottom: 0%;
+            margin-top: 2%;
         }
         </style>
 </head>
 <body>
     <nav>
-        <ul>
-            <a href="#"><li style="float: left; font-size: 24px; font-weight: bold;">Pawz</li></a>
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>Products</li></a>
-            <a href="#"><li>About Us</li></a>
-            <a href="#"><li>Contact Us</li></a>
+        <div class="top-link">
+            <a href="#">Pawz</a>
+        </div>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
         </ul>
     </nav>
     <main style="width: 80%; margin-left: 10%; margin-top: 10%; display: inline-block;">
         <div style="width: 40%; float: left;">
-            <p style="font-size: 80px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: 50px; margin-bottom: 0; line-height: 50%;" >404</p>
-            <p style="font-size: 80px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bold; margin: 0;">Oops!</p>
+            <p style="font-size: 80px; color: black; margin-top: 50px; margin-bottom: 0; line-height: 50%;" >404</p>
+            <p style="font-size: 80px; font-weight: bold; margin: 0;">Oops!</p>
             <div class="line"></div>
-            <p style="color: grey; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ok, this is awkward, but I don't know think you should be here.</p>
+            <p style="color: grey; font-size: 20px;">Ok, this is awkward, but I don't know think you should be here.</p>
             <div class="btn-container">
                 <a class="btn" style="color: white; background-color: #9cd5f0;" href="#">Home</a>
                 <a class="btn" href="#">Back</a>
