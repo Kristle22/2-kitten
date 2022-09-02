@@ -108,6 +108,9 @@ img {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
+  ul {
+    width: 65%;
+  }
   .img-container {
     width: 100%;
     height: fit-content;
